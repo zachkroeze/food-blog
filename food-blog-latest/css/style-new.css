@@ -1,0 +1,13 @@
+div.left {
+	width: 32%;
+}
+
+div.center {
+	width: 32%;
+	margin-left: 33%;
+}
+
+div.right {
+	width:32%;
+	margin-left: 66%;
+}

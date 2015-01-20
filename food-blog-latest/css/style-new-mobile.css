@@ -1,0 +1,30 @@
+section.left {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+section.right {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	display: block;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+
