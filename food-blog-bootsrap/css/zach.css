@@ -3,15 +3,19 @@
     src: url('../fonts/Langdon.otf');
 }
 
-.jumbotron {
-    background-image: url('../img/banner.jpg');
-    background-size: cover;
-    background-position: center;
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('../fonts/SourceSansPro.otf');
 }
 
-.jumbotron h1, h3 {
-    color: white;
-    text-align: center;
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: #888;
+    font-family: 'Source Sans Pro'
+}
+
+.heading {
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .front-page {
@@ -28,8 +32,27 @@
     text-transform: lowercase;
 }
 
-.sub-logo {
+.navbar-inverse {
+    background-color: #67c69b;
+    border-color: transparent;
+}
+
+h1.logo, h4.sub-logo {
+    color: #67c69b;
+    text-align: center;
+}
+
+.jumbotron {
+        background-color: white;
+        margin-bottom: -20px;
+}
+
+h4.sub-logo {
     font-family: "Langdon";
     text-transform: uppercase;
     margin-top: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: white;
 }
