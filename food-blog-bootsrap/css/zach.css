@@ -13,7 +13,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     font-family: 'Source Sans Pro'
 }
 
-p, h4.heading {
+.spacing {
     margin: 20px 0px;
 }
 
