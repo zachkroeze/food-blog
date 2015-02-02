@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "Langdon";
+    src: url('../fonts/Langdon.otf');
+}
+
+@font-face {
+    font-family: "Source Sans Pro";
+    src: url('../fonts/SourceSansPro.otf');
+}
+
+a, p, h1, h2, h3, h4, h5, h6 {
+    color: #888;
+    font-family: 'Source Sans Pro'
+}
+
+.spacing {
+    margin: 20px 0px;
+}
+
+.heading {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.front-page {
+    text-align: center;
+}
+
+.img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    font-family: "Langdon";
+    text-transform: lowercase;
+}
+
+.navbar-inverse {
+    background-color: #67c69b;
+    border-color: transparent;
+}
+
+h1.logo, h4.sub-logo {
+    color: #67c69b;
+    text-align: center;
+}
+
+.jumbotron {
+        background-color: white;
+        margin-bottom: -20px;
+}
+
+h4.sub-logo {
+    font-family: "Langdon";
+    text-transform: uppercase;
+    margin-top: 0px;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: #67c69b;
+}
+
+.navbar-inverse .navbar-toggle, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: white;
+}
+
+@media (max-width: 768px) {
+  .pad {
+    margin-bottom: 22px;
+  }
+}
+
+@media (min-width: 768px) {
+    .vert1 {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    }
+}
+
+@media (min-width: 768px) {
+    .vert2 {
+    padding-top: 85px;
+    padding-bottom: 85px;
+    }
+}
