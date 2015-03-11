@@ -71,12 +71,18 @@ h4.sub-logo {
 
 @media (min-width: 768px) {
 	.top-10 {
-		padding-top: 10px
+		padding-top: 10px;
 	}
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) {	
 	.top-20 {
-		padding-top: 20px
+		padding-top: 20px;
+	}
+}
+
+@media (min-width: 1700px) {
+	.span12, .container {
+		width: 1600px;
 	}
 }

@@ -13,9 +13,6 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
-
     <!-- Custom styles for zach -->
     <link href="css/zach.css" rel="stylesheet">
 
@@ -200,16 +197,16 @@
           <div class="col-sm-6">
             <img class="img-responsive" src="img/ramen/ramen-1.jpg">
           </div>
-          <div class="col-sm-6 top">
-            <img class="img-responsive top" src="img/ramen/ramen-2.jpg">
+          <div class="col-sm-6">
+            <img class="img-responsive top-20" src="img/ramen/ramen-2.jpg">
           </div>
         </div>
         <br>
         <div class="row">
           <div class="col-sm-6">
-            <img class="img-responsive bottom" src="img/ramen/ramen-3.jpg">
+            <img class="img-responsive top-10" src="img/ramen/ramen-3.jpg">
           </div>
-          <div class="col-sm-6 bottom top">
+          <div class="col-sm-6 top-10 top-20">
             <img class="img-responsive" src="img/ramen/ramen-4.jpg">
           </div>
         </div>

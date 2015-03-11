@@ -13,9 +13,6 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/jumbotron.css" rel="stylesheet">
-
     <!-- Custom styles for zach -->
     <link href="css/zach.css" rel="stylesheet">
 
@@ -36,8 +33,7 @@
     </script>
   </head>
 
-  <body>
-
+  <body style="padding-top:50px">
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -201,15 +197,15 @@
             <img class="img-responsive" src="img/mushroom-polenta/mushroom-1.jpg">
           </div>
           <div class="col-sm-6">
-            <img class="img-responsive top" src="img/mushroom-polenta/mushroom-4.jpg">
+            <img class="img-responsive top-20" src="img/mushroom-polenta/mushroom-4.jpg">
           </div>
         </div>
         <br>
         <div class="row">
-          <div class="col-sm-6 bottom">
+          <div class="col-sm-6 top-10">
             <img class="img-responsive" src="img/mushroom-polenta/mushroom-3.jpg">
           </div>
-          <div class="col-sm-6 bottom top">
+          <div class="col-sm-6 top-10 top-20">
             <img class="img-responsive" src="img/mushroom-polenta/mushroom-2.jpg">
           </div>
         </div>
