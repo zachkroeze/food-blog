@@ -201,7 +201,7 @@
             <img class="img-responsive" src="img/mushroom-polenta/mushroom-1.jpg">
           </div>
           <div class="col-sm-6">
-            <img class="img-responsive" src="img/mushroom-polenta/mushroom-4.jpg">
+            <img class="img-responsive top" src="img/mushroom-polenta/mushroom-4.jpg">
           </div>
         </div>
         <br>
@@ -209,7 +209,7 @@
           <div class="col-sm-6 bottom">
             <img class="img-responsive" src="img/mushroom-polenta/mushroom-3.jpg">
           </div>
-          <div class="col-sm-6 bottom">
+          <div class="col-sm-6 bottom top">
             <img class="img-responsive" src="img/mushroom-polenta/mushroom-2.jpg">
           </div>
         </div>

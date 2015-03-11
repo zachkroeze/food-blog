@@ -68,3 +68,15 @@ h4.sub-logo {
 .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
     border-color: white;
 }
+
+@media (min-width: 768px) {
+	.top-10 {
+		padding-top: 10px
+	}
+}
+
+@media (max-width: 768px) {
+	.top-20 {
+		padding-top: 20px
+	}
+}
