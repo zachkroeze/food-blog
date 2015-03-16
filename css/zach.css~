@@ -69,14 +69,18 @@ h4.sub-logo {
     border-color: white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	.top-20 {
 		padding-top: 20px;
 	}
 	h1.logo {
 		font-size: 80px;
 	}
-	h4.sub-logo, h4.spacing {
+	h4.sub-logo {
+		font-size: 27px;
+		margin-bottom: 50px;
+	}
+	h4.spacing {
 		font-size: 27px;
 	}
 }
@@ -87,13 +91,13 @@ h4.sub-logo {
 	}
 	h1.logo {
 		font-size: 110px;
-		padding-top: 14.219px;
+		margin-top: 34px;
 	}
 	h4.sub-logo {
 		font-size: 37px;
 	}
 	h4.spacing {
-		font-size: 27px;
+		font-size: 22px;
 	}
 }
 
@@ -102,13 +106,17 @@ h4.sub-logo {
 
 @media (min-width: 992px) and (max-width: 1200px) {
 	h1.logo {
-		font-size: 150px;
+		font-size: 120px;
+		margin-top: 61px;
 	}
 	h4.sub-logo {
-		font-size: 50px;
+		font-size: 40px;
 	}
 	h4.spacing {
-		font-size: 35px;
+		font-size: 25px;
+	}
+	p.spacing {
+		font-size: 15px;
 	}
 }
 
@@ -116,29 +124,18 @@ h4.sub-logo {
 
 }
 
-@media (min-width: 1200px) and (max-width: 1499px) {
+@media (min-width: 1200px) {
 	h1.logo {
-		font-size: 180px;
+		font-size: 150px;
+		margin-top: 60px;
 	}
 	h4.sub-logo {
-		font-size: 60px;
-	}
-	h4.spacing {
-		font-size: 40px;
-	}
-}
-
-@media (min-width: 1500px) {
-	.container {
-		width: 1450px;
-	}
-	h1.logo {
-		font-size: 220px;
-	}
-	h4.sub-logo {
-		font-size: 73px;
-	}
-	h4.spacing {
 		font-size: 50px;
+	}
+	h4.spacing {
+		font-size: 35px;
+	} 
+	p.spacing {
+		font-size: 18px;
 	}
 }

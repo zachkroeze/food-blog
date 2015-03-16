@@ -9,13 +9,141 @@
     <link rel="icon" href="img/favicon.ico">
 
     <title>AZ Food</title>
-
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      .pad-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @font-face {
+        font-family: "Langdon";
+        src: url('../fonts/Langdon.otf');
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        src: url('../fonts/SourceSansPro.otf');
+      }
+      a, p, h1, h2, h3, h4, h5, h6 {
+        color: #888;
+        font-family: 'Source Sans Pro'
+      }
+      .navbar-inverse{
+        background-color: #67c69b;border-color: transparent;
+      }
+      .jumbotron {
+        background-color: white;
+        margin-bottom: -20px;
+      }
+      .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+        color: white;
+      }
+      .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background-color: #67c69b;
+      }
+      .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: white;
+      }
+      @media (max-width: 767px) {
+        .top-20 {
+          margin-top: 20px;
+        }
+        #logo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 80px;
+          color: #67c69b;
+        }
+        #sublogo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 27px;
+          margin-bottom: 50px;
+          color: #67c69b;
+        }
+        #heading {
+          font-size: 27px;
+          text-align: center;
+        }
+        #par {
+          font-size: 14px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .top-10 {
+          margin-top: 10px;
+        }
+        #logo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 110px;
+          margin-top: 34px;
+          color: #67c69b;
+        }
+        #sublogo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 37px;
+          color: #67c69b;
+        }
+        #heading {
+          font-size: 25px;
+          text-align: center;
+        }
+        #par {
+          font-size: 15px;
+        }
+      }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        #logo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 120px;
+          margin-top: 61px;
+          color: #67c69b;
+        }
+        #sublogo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 40px;
+          color: #67c69b;
+        }
+        #heading {
+          font-size: 25px;
+          text-align: center;
+        }
+        #par {
+          font-size: 16px;
+        }
+      }
+      @media (min-width: 1200px) {
+        #logo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 150px;
+          margin-top: 60px;
+          color: #67c69b;
+        }
+        #sublogo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 50px;
+          color: #67c69b;
+        }
+        #heading {
+          font-size: 35px;
+          text-align: center;
+        }
+        #par {
+          font-size: 18px;
 
-    <!-- Custom styles for zach -->
-    <link href="css/zach.css" rel="stylesheet">
-
+        }
+      }
+    </style>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -26,10 +154,8 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
       ga('create', 'UA-58625977-1', 'auto');
       ga('send', 'pageview');
-
     </script>
   </head>
 
@@ -60,8 +186,8 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h1 class="logo">AZ Food</h1>
-            <h4 class="sub-logo">Homestyle Meals</h4>
+            <h1 id="logo">az food</h1>
+            <h4 id="sublogo">HOMESTYLE MEALS</h4>
           </div>
           <div class="col-sm-6">
             <img class="img-responsive" src="img/az-skillet.jpg">
@@ -76,38 +202,38 @@
     <div class="container">
       <!-- start row 1 -->
       <div class="row">
-        <div class="col-sm-4 front-page">
-          <h4 class="spacing">Mushroom Polenta</h4>
-          <a href="mushroom-polenta.html"><img src="img/mushroom-2.jpg" class="img-responsive"></a>
-          <p class="spacing">This is a test to see how things work. Just a couple lines to see how it responds.</p>
+        <div class="col-sm-4">
+          <h4 id="heading">Mushroom Polenta</h4>
+          <a href="mushroom-polenta.html"><img src="img/mushroom-2.jpg" class="img-responsive pad-15"></a>
+          <p id="par" class="pad-15">This is a test to see how things work. Just a couple lines to see how it responds.</p>
         </div>
-        <div class="col-sm-4 front-page">
-          <h4 class="spacing">Gnocchi</h4>
-          <a href="mushroom-polenta.html"><img src="img/gnocchi.jpg" class="img-responsive"></a>
-          <p class="spacing">This is a test to see how things work. Just a couple lines to see how it responds.</p>
+        <div class="col-sm-4">
+          <h4 id="heading">Gnocchi</h4>
+          <a href="mushroom-polenta.html"><img src="img/gnocchi.jpg" class="img-responsive pad-15"></a>
+          <p id="par" class="pad-15">This is a test to see how things work. Just a couple lines to see how it responds.</p>
        </div>
-        <div class="col-sm-4 front-page">
-          <h4 class="spacing">Ramen</h4>
-          <a href="ramen.html"><img src="img/ramen/ramen-4.jpg" class="img-responsive"></a>
-          <p class="spacing">This is a test to see how things work. Just a couple lines to see how it responds.</p>
+        <div class="col-sm-4">
+          <h4 id="heading">Ramen</h4>
+          <a href="ramen.html"><img src="img/ramen/ramen-4.jpg" class="img-responsive pad-15"></a>
+          <p id="par" class="pad-15">This is a test to see how things work. Just a couple lines to see how it responds.</p>
         </div>
       </div> <!-- end row 1 -->
       <!-- start row 2 -->
       <div class="row">
-        <div class="col-sm-4 front-page">
-          <h4 class="spacing">Mushroom Polenta</h4>
-          <a href="mushroom-polenta.html"><img src="img/mushroom-2.jpg" class="img-responsive"></a>
-          <p class="spacing">This is a test to see how things work. Just a couple lines to see how it responds.</p>
+        <div class="col-sm-4">
+          <h4 id="heading">Mushroom Polenta</h4>
+          <a href="mushroom-polenta.html"><img src="img/mushroom-2.jpg" class="img-responsive pad-15"></a>
+          <p id="par" class="pad-15">This is a test to see how things work. Just a couple lines to see how it responds.</p>
         </div>
-        <div class="col-sm-4 front-page">
-          <h4 class="spacing">Gnocchi</h4>
-          <a href="mushroom-polenta.html"><img src="img/gnocchi.jpg" class="img-responsive"></a>
-          <p class="spacing">This is a test to see how things work. Just a couple lines to see how it responds.</p>
+        <div class="col-sm-4">
+          <h4 id="heading">Gnocchi</h4>
+          <a href="mushroom-polenta.html"><img src="img/gnocchi.jpg" class="img-responsive pad-15"></a>
+          <p id="par" class="pad-15">This is a test to see how things work. Just a couple lines to see how it responds.</p>
        </div>
-        <div class="col-sm-4 front-page">
-          <h4 class="spacing">Ramen</h4>
-          <a href="ramen.html"><img src="img/ramen/ramen-4.jpg" class="img-responsive"></a>
-          <p class="spacing">This is a test to see how things work. Just a couple lines to see how it responds.</p>
+        <div class="col-sm-4">
+          <h4 id="heading">Ramen</h4>
+          <a href="ramen.html"><img src="img/ramen/ramen-4.jpg" class="img-responsive pad-15"></a>
+          <p id="par" class="pad-15">This is a test to see how things work. Just a couple lines to see how it responds.</p>
         </div>
       </div> <!-- end row 2 -->
       <hr>
@@ -117,7 +243,7 @@
 
         <hr>
 
-        <p class="spacing">A-Z Food, 2015</p>
+        <p>A-Z Food, 2015</p>
       </footer>
     </div> <!-- /container -->
 
