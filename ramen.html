@@ -13,8 +13,135 @@
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for zach -->
-    <link href="css/zach.css" rel="stylesheet">
+    <style>
+      .pad-15 {
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .img-responsive {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      @font-face {
+        font-family: "Langdon";
+        src: url('fonts/Langdon.otf');
+      }
+      @font-face {
+        font-family: "Source Sans Pro";
+        src: url('fonts/SourceSansPro.otf');
+      }
+      a, p, h1, h2, h3, h4, h5, h6 {
+        color: #888;
+        font-family: 'Source Sans Pro'
+      }
+      .navbar-inverse{
+        background-color: #67c69b;border-color: transparent;
+      }
+      .jumbotron {
+        background-color: white;
+        margin-bottom: -20px;
+      }
+      .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+        color: white;
+      }
+      .navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+        background-color: #67c69b;
+      }
+      .navbar-inverse .navbar-toggle, .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+        border-color: white;
+      }
+      @media (max-width: 767px) {
+        .top-20 {
+          margin-top: 20px;
+        }
+        #logo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 60px;
+          color: #67c69b;
+          margin-bottom: 30px;
+        }
+        #sublogo {
+          text-align: center;
+          font-size: 27px;
+        }
+        #heading {
+          font-size: 27px;
+        }
+        #par {
+          font-size: 14px;
+        }
+      }
+      @media (min-width: 768px) and (max-width: 991px) {
+        .top-10 {
+          margin-top: 10px;
+        }
+        #logo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 65px;
+          margin-top: 20px;
+          color: #67c69b;
+        }
+        #sublogo {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 8px;
+        }
+        #heading {
+          font-size: 30px;
+        }
+        #par {
+          font-size: 15px;
+        }
+      }
+      @media (min-width: 992px) and (max-width: 1199px) {
+        .top-10 {
+          margin-top: 10px;
+        }
+        #logo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 65px;
+          margin-top: 20px;
+          color: #67c69b;
+        }
+        #sublogo {
+          text-align: center;
+          font-size: 30px;
+          margin-top: 48px;
+        }
+        #heading {
+          font-size: 30px;
+        }
+        #par {
+          font-size: 15px;
+        }
+      }
+      @media (min-width: 1200px) {
+        .top-10 {
+          margin-top: 10px;
+        }
+        #logo {
+          font-family: "Langdon";
+          text-align: center;
+          font-size: 90px;
+          margin-top: 20px;
+          color: #67c69b;
+        }
+        #sublogo {
+          text-align: center;
+          font-size: 40px;
+          margin-top: 38px;
+        }
+        #heading {
+          font-size: 30px;
+        }
+        #par {
+          font-size: 15px;
+        }
+      }
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
